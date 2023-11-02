@@ -1,0 +1,107 @@
+.container{
+    display: flex;
+    height:100%;
+    font-family: 'Kanit', sans-serif;
+    background:none;
+    justify-content: center;
+    align-items: center;
+  
+}
+.container img{
+    position: relative;
+    left: 34vw;
+    width: 100vw;
+    height: 100vh;
+
+}
+.container form{
+    position: relative;
+    right: 46vw;;
+    background-color:  rgba(255, 255, 255, 0.916);;
+    height: 100%;
+    width: 56vw;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    color: rgb(206, 148, 0);
+    padding: 20px 40px;
+    border-radius: 5px;
+    z-index: 2;
+    box-shadow: 6px 10px 10px 0px  rgba(17, 161, 113, 0.258);;
+}
+.container form #su{
+    color:rgb(16, 139, 98);
+    position: relative;
+    font-family: 'Kanit', sans-serif;
+    background: none;
+}
+.container form label{
+    padding: 4px;
+     font-weight: lighter;
+     position: relative;
+     align-self: flex-start;
+     background: none;
+     left: 2vw;;
+     color:rgb(16, 139, 98);;
+}
+.container form input{
+    width: 28vw;
+    position: relative;
+    color: rgb(0, 0, 0);
+    border: 1px solid rgba(17, 161, 113, 0.591);
+    background-color:  rgba(251, 251, 251, 0.057);;
+    height: 30px;
+    border-radius: 7px;
+}
+.container form a{
+    background: none;
+    text-decoration: none;
+    color:  rgb(17, 161, 113);
+}
+#btn{
+    background-color: rgb(16, 139, 98);
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#btn:hover {
+    background-color: rgb(38, 184, 136);;
+    color: rgb(255, 255, 255);
+    font-weight: bold;
+}
+#my_image{
+    display: flex;
+    align-items: center;
+    background: none;
+    border: 0ch;
+    color: rgb(206, 148, 0);
+}
+
+#formerror1{
+    position: relative;
+    left:25vw;
+    top:21vh;
+    z-index: 5;
+    background: none;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+}
+#formerror2{
+    position: relative;
+    left:11vw;
+    top:35.1vh;
+    z-index: 5;
+    background: none;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+
+}
+#formerror3{
+    position: relative;
+    left:4vw;
+    top:63.3vh;
+    z-index: 5;
+    background: none;
+    color: red;
+    font-family: 'Kanit', sans-serif;
+
+}

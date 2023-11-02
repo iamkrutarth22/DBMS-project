@@ -1,0 +1,137 @@
+.container{
+    display: flex;
+    height:100vh;
+    margin: 40px;
+    flex-direction: column;
+    background: none;
+  
+}
+.container .text1{
+    position: relative;
+    background: none;
+    display:inline;
+    font-size: 55px;
+    color: aliceblue;
+    font-weight:bolder;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    z-index: 2;
+
+}
+.container p{
+    background: none;
+}
+.text1 p{
+    display: inline;
+    z-index: 2;
+
+}
+.container .text2{
+    background: none;
+    color: rgb(17, 161, 113);
+    position: relative;
+    display: inline;
+    top:20px;
+    z-index: 2;
+
+}
+.container .text3{
+    position:relative;
+    top:170px;
+    left: 28vw;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 197, 51);
+    font-weight:lighter;
+    width: 500px;
+    z-index: 2;
+
+}
+.text2 p{
+    display:inline-flex;
+    font-family: 'Kanit', sans-serif;
+    color: rgb(255, 197, 51);
+    font-weight:lighter;
+    width: 500px;
+    z-index: 2;
+}
+#picture1{
+    display: inline;
+    position: relative;
+    left: 45vw;
+    bottom: 337px;
+    width: 400px;
+    height: 450px;
+    border-radius: 3px;
+    color: aliceblue;
+    font-family: sans-serif;
+}
+#btn{
+    font-weight: bold;
+    color: black;
+    background-color: rgb(17, 161, 113);
+    display: inline-flex;
+    width: 100px;
+    padding: 10px;
+    left: 100px;
+    top: 30px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    z-index: 2;
+
+}
+#btn:hover {
+    font-weight: bold;
+    color: black;
+    background-color: rgb(255, 255, 255);
+    display: inline-flex;
+    width: 100px;
+    padding: 10px;
+    left: 100px;
+    top:30px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    text-decoration: none;
+    font-family: sans-serif;
+    z-index: 2;
+
+}
+#btn2{
+    text-decoration: none;
+    font-weight: bold;
+    color:   rgb(17, 161, 113);
+    display: inline-flex;
+    width: 100px;
+    padding: 10px;
+    left:230px;
+    bottom: 8px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    border:1px solid  rgb(17, 161, 113);
+    font-family: sans-serif;
+    z-index: 2;
+
+}
+#btn2:hover {
+    text-decoration: none;
+    font-weight: bold;
+    background-color: white;
+    color: black;
+    display: inline-flex;
+    width: 100px;
+    padding: 10px;
+    left:230px;
+    bottom: 8px;
+    border-radius: 20px;
+    position: relative;
+    text-align: center;
+    justify-content: center;
+    font-family: sans-serif;
+}

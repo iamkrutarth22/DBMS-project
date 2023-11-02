@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(0, 0, 0);
+}
+
+
+/* header */
+
+header {
+    display: flex;
+    margin: 30px;
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: row;
+    color: aliceblue;
+    position: sticky;
+}
+
+.nav a {
+    font-size: 12px;
+    text-decoration: none;
+    color: rgb(240, 240, 240);
+    font-family: 'Kanit', sans-serif;
+}
+
+.nav a:hover {
+    color: rgb(17, 161, 113);
+}
+
+.nav ul li {
+    position: relative;
+    right: 12vw;
+    display: flex;
+    padding: 0px 35px;
+    background: none;
+}
+
+.nav ul {
+    display: flex;
+    justify-content: center;
+}
+
+header .logo {
+    font-size: 17px;
+    font-family: 'Kanit', sans-serif;
+    font-family: 'M PLUS 1p', sans-serif;
+    display: flex;
+    color: rgb(241, 241, 241);
+    background: none;
+    text-decoration: none;
+}
+
+header .profile {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    display: flex;
+    font-size: 12px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .profile img {
+    width: 35px;
+    height: 35px;
+    border-radius: 17px;
+    margin: 0 10px;
+}
+
+.wrapper {
+    background: url(bg1.jpg) no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+
+.wrapper .center {
+    position: absolute;
+    left: 50%;
+    top: 55%;
+    transform: translate(-50%, -50%);
+    font-family: sans-serif;
+    user-select: none;
+}
+
+.center h1 {
+    color: white;
+    font-size: 70px;
+    width: 900px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.center h2 {
+    color: white;
+    font-size: 70px;
+    font-weight: bold;
+    margin-top: 10px;
+    width: 885px;
+    text-align: center;
+}
+
+.center .buttons {
+    margin: 35px 280px;
+}
+
+.buttons button {
+    height: 50px;
+    width: 150px;
+    font-size: 18px;
+    font-weight: 600;
+    color: #ffb3b3;
+    background: red;
+    outline: none;
+    cursor: pointer;
+    border: 1px solid #cc0000;
+    border-radius: 25px;
+    transition: .4s;
+}
+
+.buttons .btn2 {
+    margin-left: 25px;
+}
+
+.buttons button:hover {
+    background: #cc0000;
+}
